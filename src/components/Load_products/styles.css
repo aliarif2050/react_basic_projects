@@ -1,0 +1,25 @@
+.container{
+    padding-top: 100px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.product_container{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 10px;
+}
+.product {
+    padding: 20px;
+    display: flex;           /* ADD THIS */
+    flex-direction: column;
+    gap: 10px;
+    border: 1px solid white; /* Optional, if you want visible borders */
+    background-color: #222;  /* Helps show the white border in dark mode */
+    align-items: center;     /* Optional: to center images/text */
+}
+
+.product img{
+    width: 200px;
+    height: 200px;
+}
