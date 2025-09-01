@@ -41,5 +41,6 @@ export default function Load_products(){
              }
              
         </div>
+        // commented outt
     )
 }
